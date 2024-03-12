@@ -15,6 +15,7 @@ def subset(A, mark, start, k):#mark: an array to track the subset elements; k: t
         #path 2:
         mark[start] = 0
         subset(A, mark, start + 1, k)
+    return
 
 # Example usage
 A = [5, 10, -3]
